@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'ico_slider';
-  src:  url('/fonts/ico_slider.eot?rjvb3c');
-  src:  url('/fonts/ico_slider.eot?rjvb3c#iefix') format('embedded-opentype'),
-    url('/fonts/ico_slider.ttf?rjvb3c') format('truetype'),
-    url('/fonts/ico_slider.woff?rjvb3c') format('woff'),
-    url('/fonts/ico_slider.svg?rjvb3c#ico_slider') format('svg');
+  src:  url('fonts/ico_slider.eot?rjvb3c');
+  src:  url('fonts/ico_slider.eot?rjvb3c#iefix') format('embedded-opentype'),
+    url('fonts/ico_slider.ttf?rjvb3c') format('truetype'),
+    url('fonts/ico_slider.woff?rjvb3c') format('woff'),
+    url('fonts/ico_slider.svg?rjvb3c#ico_slider') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
