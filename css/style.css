@@ -1,12 +1,12 @@
-@import "/css/header.css";
-@import "/css/about.css";
-@import "/css/how_to.css";
-@import "/css/categories.css";
-@import "/css/testimony.css";
-@import "/css/footer.css";
-@import "/css/font.css";
-@import "/css/media.css";
-@import "/css/popup.css";
+@import "css/header.css";
+@import "css/about.css";
+@import "css/how_to.css";
+@import "css/categories.css";
+@import "css/testimony.css";
+@import "css/footer.css";
+@import "css/font.css";
+@import "css/media.css";
+@import "css/popup.css";
 
 
 * {
