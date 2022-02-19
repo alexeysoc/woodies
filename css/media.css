@@ -1,0 +1,361 @@
+@media (max-width: 1200px) {
+  .header-btn {
+    margin-right: 0;
+  }
+
+  .header-logo__img {
+    margin-left: 0;
+  }
+  .bg-page {
+    display: none;
+  }
+  .bg-page-r {
+    height: 100%;
+    width: 370px;
+    border-radius: 0 0 0 120px;
+    bottom: 50px;
+  }
+  .section-page__img {
+    padding: 0 0 0 15px;
+  }
+  .section-page__title {
+    margin-right: 15px;
+  }
+  .about-text {
+    margin-right: 20px;
+  }
+  .custom-furniture__img {
+    margin: 37px 20px 0 0;
+  }
+}
+@media (max-width: 1050px) {
+  .header-nav__item {
+    margin-right: 30px;
+  }
+  .categories-items {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+  }
+}
+@media (max-width: 940px) {
+  .header-logo {
+    margin-right: 2%;
+  }
+  .header-nav__item {
+    margin-right: 20px;
+  }
+  .header-btn {
+    padding: 8px 15px;
+  }
+  .container-page {
+    background-position: center bottom 20px !important;
+  }
+  .page-column__title {
+    font-size: 60px;
+  }
+  .page-column__descr {
+    font-size: 30px;
+  }
+  .about-furniture__img {
+    padding: 20px 0 0 20px;
+  }
+  .about-furniture__text {
+    margin-left: 20px;
+  }
+  .about-furniture__descr {
+    margin-left: 20px;
+  }
+  .custom-furniture__text {
+    margin: 163px 20px 0 30px;
+  }
+  .custom-furniture__descr {
+    margin: 15px 20px 0 30px;
+  }
+  .section-page {
+    margin-top: 150px !important;
+  }
+  .section-page__text {
+    font-size: 30px !important;
+  }
+  .section-page__title {
+    font-size: 60px !important;
+  }
+  .testimony-column__2 {
+    display: none;
+  }
+  .testimony-column__data {
+    margin: 0 20px 30px 20px;
+  }
+  .testimony-item {
+    justify-content: center;
+  }
+  .slider-nav {
+    padding: 0 20px;
+  }
+  .swiper-container {
+    width: 650px !important;
+  }
+  .line {
+    margin: 0 63px 0 63px;
+  }
+  .footer-nav {
+    margin: 24px 63px 0 63px;
+  }
+}
+@media (min-width: 800px) {
+  .header-nav__items {
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    padding: 100px 30px 30px 30px;
+    z-index: 10;
+  }
+  .header-btn {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background: none;
+    top: 0;
+    border:none;
+    text-align: left;
+    padding: 15px 0;
+  }
+ .header-nav__link{
+   display: block;
+  padding: 15px 0;
+ }
+  .header-nav_burger {
+    display: block;
+  }
+  .bg-page {
+    display: none;
+  }
+  .page-column__title {
+    font-size: 50px;
+  }
+
+  .page-column__descr {
+    font-size: 24px;
+  }
+
+  .about-row {
+    flex-flow: wrap-reverse;
+    justify-content: center;
+  }
+  .custom-row {
+    flex-wrap: wrap;
+  }
+  .about-text {
+    margin: 50px 20px 0 20px;
+  }
+  .about-descr {
+    margin: 15px 20px 0 20px;
+  }
+  .about-furniture__img {
+    padding: 0;
+  }
+  .custom-furniture__img {
+    margin: 0;
+  }
+  .section-page {
+    flex-wrap: wrap;
+  }
+  .section-page__text {
+    font-size: 26px !important;
+  }
+  .section-page__title {
+    font-size: 46px !important;
+    margin-left: 20px !important;
+  }
+  .section-page__line {
+    margin: 5px 20px;
+  }
+  .categories-items {
+    margin: 0 15px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+  }
+  .how_to-descr {
+    font-size: 20px;
+  }
+  .testimony-column {
+    margin-left: 20px;
+  }
+  .subscribe-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 152px 20px 85px 20px;
+  }
+  .subscribe-descr {
+    flex: 1 1 auto;
+    margin: 0 43px;
+    padding: 0;
+  }
+  .subscribe-form {
+    flex: 1 1 auto;
+    margin: 0 43px;
+  }
+  .subscribe-text {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .testimony-column__1 {
+    display: none;
+  }
+  .swiper-container {
+    width: 100% !important;
+  }
+  .slider-nav {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto !important;
+  }
+  .swiper-pagination {
+    width: 100% !important;
+  }
+  .footer-nav {
+    flex-wrap: wrap;
+  }
+  .footer-nav__column {
+    margin: 0 20px;
+  }
+  .popup__content{
+    padding: 20px !important;
+  }
+  .form input{
+    padding: 8px 12px !important;
+ }
+}
+@media (max-width: 600px) {
+  .page-column {
+    flex-basis: 100%;
+    padding-right: 28px;
+  }
+  .page-column__img {
+    display: none;
+  }
+  .bg-page-r {
+    display: none;
+  }
+  .about-text {
+    font-size: 28px;
+  }
+  .about-descr {
+    font-size: 20px;
+  }
+  .about-furniture {
+    text-align: center;
+  }
+  .custom-furniture {
+    text-align: center;
+  }
+  .about-furniture__img {
+    padding: 0;
+    width: 80%;
+  }
+  .custom-furniture__img {
+    margin: 0;
+    width: 80%;
+  }
+  .categories-items {
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+  }
+  .section-page {
+    height: 100% !important;
+  }
+  .section-page__text {
+    font-size: 20px !important;
+  }
+  .section-page__title {
+    font-size: 36px !important;
+  }
+
+  .testimony-column__data {
+    position: relative !important;
+  }
+  .subscribe-descr {
+    margin: 0 10px;
+  }
+  .subscribe-form {
+    margin: 0 10px;
+  }
+  .line {
+    margin: 0 30px;
+  }
+  .footer-nav {
+    margin: 0 30px;
+  }
+  .form__btn{
+    width: 100%;
+  }
+  .form input{
+     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .section-page__text {
+    font-size: 18px !important;
+  }
+  .section-page__title {
+    font-size: 30px !important;
+  }
+  .categories-items {
+    grid-column-gap: 10px;
+    margin: 0;
+  }
+  .categories-item {
+    width: 240px;
+  }
+  .shop-btn {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .header-logo__text {
+    font-size: 20px;
+  }
+  .page-column__title {
+    font-size: 30px;
+  }
+  .page-column__descr {
+    font-size: 20px;
+  }
+  .page-column__btn {
+    font-size: 14px;
+    padding: 14px;
+  }
+  .about-furniture {
+    margin-top: 10px !important;
+  }
+  .custom-furniture {
+    margin-top: 10px !important;
+  }
+  /* .custom-furniture__text */
+  .section-page__text {
+    font-size: 16px !important;
+  }
+  .section-page__title {
+    font-size: 26px !important;
+  }
+  .testimony-column__data {
+    flex: 0 0 300px !important;
+    margin: 0 10px 30px 10px;
+    width: 100%;
+  }
+  .slider-nav {
+    width: 100% !important;
+  }
+ }

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'ico_slider';
+  src:  url('/fonts/ico_slider.eot?rjvb3c');
+  src:  url('/fonts/ico_slider.eot?rjvb3c#iefix') format('embedded-opentype'),
+    url('/fonts/ico_slider.ttf?rjvb3c') format('truetype'),
+    url('/fonts/ico_slider.woff?rjvb3c') format('woff'),
+    url('/fonts/ico_slider.svg?rjvb3c#ico_slider') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ico_slider"], [class*=" ico_slider"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ico_slider' !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico_sliderArrow-next:before {
+  content: "\e900";
+}
+.ico_sliderArrow-pref:before {
+  content: "\e901";
+}

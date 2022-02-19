@@ -1,0 +1,44 @@
+
+.about_logo{
+    display: flex;
+    flex-shrink:0;
+    margin-right: 12px;
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-between;
+}
+.about-furniture__img{
+    padding: 40px 0 0 52px;
+}
+.about-text{
+    margin: 143px 0 0 80px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+}
+.about-furniture__text span{
+    font-weight: 400;    
+}
+.about-descr{
+    margin:17px 80px 0 80px;
+     font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.1px;
+}
+
+.custom-furniture__text{
+    margin: 163px 40px 0 65px;
+    letter-spacing: 0.15px;
+}
+.custom-furniture__text span{
+    font-weight: 400;    
+}
+.custom-furniture__descr{
+    margin: 15px 20px 0 65px;
+}
+.custom-furniture__img{
+    margin: 37px -35px 0 0;  
+}

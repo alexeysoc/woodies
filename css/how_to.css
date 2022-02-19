@@ -1,0 +1,48 @@
+
+.how-page{
+    margin-top: 115px;
+
+}
+.how_to-row {
+    max-width: 952px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 42px auto 68px auto;
+}
+.how_to-row__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 238px;
+    margin-top: 20px;
+}
+.how_to-img {
+    height: 120px;
+    width: 120px;
+    z-index: 2;
+}
+.how_to-descr {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375;
+    color: #000000;
+    margin-top: 24px;
+}
+.number {
+    position: absolute;
+    left: 20px;
+    bottom: 24px;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+    color: rgba(249, 189, 189, 0.25);
+    z-index: 1;
+    }
+    .how_to__btn{
+        margin: 10px auto 0 auto;
+        width: 212px;
+    }
