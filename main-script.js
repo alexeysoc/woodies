@@ -30,7 +30,7 @@
       function onMenuLinkClick(e){
         
         const menuLink = e.target;
-        console.log(menuLink);
+        // console.log(menuLink);
         if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
           const gotoBlock=document.querySelector(menuLink.dataset.goto);
           const gotoBlockValue=gotoBlock.getBoundingClientRect().top + pageYOffset-document.querySelector('.header').offsetHeight;
@@ -60,7 +60,7 @@ const lockPaadding=document.querySelectorAll('.lock-padding') ;
 let unlock = true;
 
 const timeout = 800;
-console.log(popupLinks.length);
+// console.log(popupLinks.length);
 
 if (popupLinks.length>0) {
   for (let index=0; index<popupLinks.length; index ++){

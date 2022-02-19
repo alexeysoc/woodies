@@ -34,7 +34,7 @@ const swiper = new Swiper('.swiper-container', {
 });
 
 
-const MainSwiper = new MainSwiper('.swiper-container', {
+// const MainSwiper = new MainSwiper('.swiper-container', {
   // // Optional parameters
   // // direction: 'vertical',
   // loop: true,
@@ -58,4 +58,4 @@ const MainSwiper = new MainSwiper('.swiper-container', {
   //   onlyInViewport: false,
   // },
 
-});
+// });
